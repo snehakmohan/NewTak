@@ -39,7 +39,11 @@ class _FoodMenuState extends State<FoodMenu> {
             SizedBox(
               height: 10,
             ),
-            buildRow("assets/images/indian.png", "Rise and Curry", "Single : \$${200}","Full  : \$${400}",),
+            buildRow("assets/images/indian.png", "Rice and Curry", "Single : \$${200}","Full  : \$${400}",),
+            SizedBox(
+              height: 10,
+            ),
+            buildRow("assets/images/seafood.png", "SeaFood", "Single : \$${550}","Full  : \$${800}",),
 
           ],
         ),
